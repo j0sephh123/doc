@@ -354,7 +354,6 @@ assert.strictEqual(snakeToCamel("hello_world"), "helloWorld");
 assert.strictEqual(snakeToCamel("snake_case_string"), "snakeCaseString");
 assert.strictEqual(snakeToCamel("alreadyCamelCase"), "alreadyCamelCase");
 assert.strictEqual(snakeToCamel(""), "");
-
 ```
 
 ### [todo] Find the Longest Palindromic Substring

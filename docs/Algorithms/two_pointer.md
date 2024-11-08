@@ -104,3 +104,11 @@ console.log(removeDuplicates([0, 0, 1, 1, 1, 2, 2, 3, 3, 4])); // 5, because the
   ```
 
 - **Hint**: After sorting the array, loop through each element and for each element, use the two-pointer technique to find pairs that sum to the negative of the current element.
+
+### [todo] Palindrome
+
+### [todo] Partitioning Around a Pivot
+
+### [todo] Sorting Colors (Dutch National Flag Problem)
+
+### [todo] Smallest Subarray with a Given Sum

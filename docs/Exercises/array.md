@@ -471,64 +471,6 @@ assert.deepStrictEqual(findPairs([0, 0, 1, -1, 2], 0), [
 ]);
 ```
 
-### [todo] Find the Longest Increasing Subsequence
-
-```js
-const assert = require("node:assert");
-
-function longestIncreasingSubsequence(arr) {
-  // Your code here
-}
-
-// Tests
-assert.strictEqual(
-  longestIncreasingSubsequence([10, 9, 2, 5, 3, 7, 101, 18]),
-  4
-);
-assert.strictEqual(longestIncreasingSubsequence([1, 2, 3, 4]), 4);
-assert.strictEqual(longestIncreasingSubsequence([5, 4, 3, 2, 1]), 1);
-```
-
-### [todo] Three Sum
-
-```js
-const assert = require("node:assert");
-
-function threeSum(arr) {
-  // Your code here
-}
-
-// Tests
-assert.deepStrictEqual(threeSum([-1, 0, 1, 2, -1, -4]), [
-  [-1, -1, 2],
-  [-1, 0, 1],
-]);
-assert.deepStrictEqual(threeSum([0, 0, 0]), [[0, 0, 0]]);
-assert.deepStrictEqual(threeSum([1, 2, -2, -1]), []);
-assert.deepStrictEqual(threeSum([1, 2, 3]), []);
-assert.deepStrictEqual(threeSum([-4, -1, -1, 0, 1, 2]), [
-  [-1, -1, 2],
-  [-1, 0, 1],
-]);
-assert.deepStrictEqual(threeSum([0, 0, 0, 0]), [[0, 0, 0]]);
-assert.deepStrictEqual(threeSum([100, -100, 0, 50, 50]), []);
-```
-
-### [todo] Subarray Sum Equals K
-
-```js
-const assert = require("node:assert");
-
-function subarraySum(arr, k) {
-  // Your code here
-}
-
-// Tests
-assert.strictEqual(subarraySum([1, 1, 1], 2), 2);
-assert.strictEqual(subarraySum([1, 2, 3], 3), 2);
-assert.strictEqual(subarraySum([1, -1, 0], 0), 3);
-```
-
 ### Longest Consecutive Sequence
 
 ```js
@@ -566,34 +508,4 @@ assert.strictEqual(longestIncreasingSubsequence([1, 3, 5, 7, 9]), 5);
 assert.strictEqual(longestIncreasingSubsequence([7, 7, 7, 7, 7]), 1);
 assert.strictEqual(longestIncreasingSubsequence([3, 10, 2, 1, 5, 6, 8]), 4);
 assert.strictEqual(longestIncreasingSubsequence([0, 8, 4, 12, 2]), 2);
-```
-
-### [todo] Product of Array Except Self
-
-```js
-const assert = require("node:assert");
-
-function productExceptSelf(arr) {
-  // Your code here
-}
-
-// Tests
-assert.deepStrictEqual(productExceptSelf([1, 2, 3, 4]), [24, 12, 8, 6]);
-assert.deepStrictEqual(productExceptSelf([0, 1, 2, 3]), [6, 0, 0, 0]);
-assert.deepStrictEqual(productExceptSelf([2, 3]), [3, 2]);
-```
-
-### [todo] Find the Majority Element
-
-```js
-const assert = require("node:assert");
-
-function findMajorityElement(arr) {
-  // Your code here
-}
-
-// Tests
-assert.strictEqual(findMajorityElement([3, 2, 3]), 3);
-assert.strictEqual(findMajorityElement([2, 2, 1, 1, 1, 2, 2]), 2);
-assert.strictEqual(findMajorityElement([1]), 1);
 ```
